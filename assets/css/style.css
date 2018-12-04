@@ -12,25 +12,45 @@ form{ color: #ffffff ;
 body{
     background-image: url(../images/folk-pattern.png)
 }
+/* Navbar Elements */
 /* Name */
-h1{
-    color:white;
-}
-.navbar-brand, .navbar-light, .bg-light{
-    color:white;
+.navbar-brand{
+    color:white !important;
     background-color:#6ed3cf;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 12px solid #6ed3cf;
+    border-bottom: 12px solid #6ed3cf;
+    margin: -12px 0;
 }
+.null-padding-x{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.nav-link{
+    color: rgb(167, 167, 167) !important;
+}
+@media screen and (max-width: 767px){
+.navbar-nav .nav-link {
+    padding-left: 15px;
+    }
+}
+.navbar{
+    border-bottom: 2px solid lightgray;
+}
+
+
 /* Headers for Content */
 h3{
     color: #6ed3cf;
     padding-bottom: 15px;
-    border-bottom: 3px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 /* used to add top margins */
 .top-buffer{
     margin-top:20px;
 }
-.container{
+.content{
     background-color:white;
     border: solid 1px lightgray;
 }
