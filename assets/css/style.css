@@ -29,3 +29,28 @@ h3{
     background-color:white;
     border: solid 1px lightgray;
 }
+/* projects styling */
+.proj-img{
+    width: 600px;
+    height: auto;
+}
+/* .proj-label{
+    position: absolute;
+    bottom: 0;
+} */
+.proj-label{
+    background-color:#6ed3cf;
+    padding: 15px 0;
+}
+.carousel-caption{
+    right:0% !important;
+    left:0% !important;
+    bottom:15%;
+}
+.project a{
+    display:inline-flex;
+    position: relative;
+}
+.project img{
+    border: 1px solid lightgray;
+}
