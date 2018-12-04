@@ -1,3 +1,4 @@
+/* my colors from first assignment */
 form{ color: #ffffff ;
     color: white;
      color: #cccccc ;
@@ -7,9 +8,11 @@ form{ color: #ffffff ;
      color: lightgray;
       color: #141414;
 }
+
 body{
     background-image: url(../images/folk-pattern.png)
 }
+/* Name */
 h1{
     color:white;
 }
@@ -17,11 +20,13 @@ h1{
     color:white;
     background-color:#6ed3cf;
 }
+/* Headers for Content */
 h3{
     color: #6ed3cf;
     padding-bottom: 15px;
     border-bottom: 3px solid lightgray;
 }
+/* used to add top margins */
 .top-buffer{
     margin-top:20px;
 }
@@ -29,15 +34,25 @@ h3{
     background-color:white;
     border: solid 1px lightgray;
 }
+/* About Styling */
+.me{
+    width: 40%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px){
+    .me{
+        width: 100%;
+        height: auto;
+        padding-right: 0 !important;
+    }
+}
+
 /* projects styling */
 .proj-img{
     width: 600px;
     height: auto;
 }
-/* .proj-label{
-    position: absolute;
-    bottom: 0;
-} */
 .proj-label{
     background-color:#6ed3cf;
     padding: 15px 0;
