@@ -14,7 +14,7 @@
 <body>
     <!-- This container holds the header -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Brendan Kelly</a>
+                <h1 class="navbar-brand">Brendan Kelly</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,16 +35,26 @@
         </nav>
     
     <!-- This container holds the content for the bio -->
-   <div>
-        <h2>About Me</h2>
+   <div class="container top-buffer">
+       <div class="row top-buffer">
+           <div class="col">
+                <h3>About Me</h3>
+           </div>
+        </div>
          <!-- made image a child element of the p element that contains bio  -->
-        <p>
-            <img src = assets/images/me.jpg alt = "Photo of me">
-            I was born and raised on the south side of Chicago. I've lived all over the city and have enojed the endless variety of all it's neighborhoods. Even though I've always
-            lived in Chicago, I am still able to find new and exciting things to do! <br /><br />
-            Recently, I have begun a journey to becoming a web developer. You're actually looking at 
-            one of my first projects right now! This is only the beginning, and I cannot wait for all of the amazing skills I am going to learn.
-        </p>
+        <div class="row top-buffer">
+            <div class="col-md-5 col-lg-4">
+                <img class="img-fluid" src = assets/images/me.jpg alt = "Photo of me">
+            </div>
+            <div class ="col-md-6 col-lg-7">
+                <p>
+                    I was born and raised on the south side of Chicago. I've lived all over the city and have enojed the endless variety of all it's neighborhoods. Even though I've always
+                    lived in Chicago, I am still able to find new and exciting things to do! <br /><br />
+                    Recently, I have begun a journey to becoming a web developer. You're actually looking at 
+                    one of my first projects right now! This is only the beginning, and I cannot wait for all of the amazing skills I am going to learn.
+                </p>
+            </div>
+        </div>
     </div>
      <!-- This container is for the footer -->
     <div>

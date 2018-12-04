@@ -1,1 +1,31 @@
-/* colors: #ffffff white #cccccc #6ed3cf rgb(61, 61, 61  rgb(167, 167, 167) lightgray #141414*/
+form{ color: #ffffff ;
+    color: white;
+     color: #cccccc ;
+     color: #6ed3cf ;
+    color: rgb(61, 61, 61);
+    color: rgb(167, 167, 167);
+     color: lightgray;
+      color: #141414;
+}
+body{
+    background-image: url(../images/folk-pattern.png)
+}
+h1{
+    color:white;
+}
+.navbar-brand, .navbar-light, .bg-light{
+    color:white;
+    background-color:#6ed3cf;
+}
+h3{
+    color: #6ed3cf;
+    padding-bottom: 15px;
+    border-bottom: 3px solid lightgray;
+}
+.top-buffer{
+    margin-top:20px;
+}
+.container{
+    background-color:white;
+    border: solid 1px lightgray;
+}
