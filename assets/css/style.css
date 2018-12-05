@@ -50,6 +50,10 @@ h3{
 .top-buffer{
     margin-top:20px;
 }
+.bottom-buffer{
+    margin-bottom:20px;
+}
+/* Genertic container for content */
 .content{
     background-color:white;
     border: solid 1px lightgray;
@@ -88,4 +92,42 @@ h3{
 }
 .project img{
     border: 1px solid lightgray;
+}
+/* Contact Styling */
+h5{
+    font-weight: 200;
+}
+.contact-bub{
+    width: 100%;
+}
+textarea{
+    height: 250px;
+    resize: none;
+}
+.sub{
+    color: white;
+    background-color: #6ed3cf;
+    padding: 7px 20px;
+    border: none;
+}
+/* Footer Styling */
+/* Used to make a div that will take up 100% of the screen minus the size of the footer so that the footer will be at the bottom, even if the content itself
+isn't large enough to push the header to the bottom*/
+.mn-con{
+    min-height: calc(100vh - 176px);
+}
+footer {
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #6ed3cf;
+    height: 50px;
+}
+.foot{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
 }

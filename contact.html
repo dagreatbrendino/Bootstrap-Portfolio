@@ -36,22 +36,35 @@
                 </div>
             </nav>
             <!-- This container holds the contact form -->
-            <div>
-                <h2>Contact</h2>
-                <form action="mailto:brendanmkelly94@gmail.com" method="post" enctype="text/plain">
-                    <h3>Name</h3>
-                    <input type="text" name="firstname" placeholder=" John Smith">
-                    <h3>Email</h3>
-                    <input type="text" name="email" placeholder=" example@email.com">
-                    <h3>Message</h3>
-                    <textarea id = message type="text" name="message"></textarea>
-                    <input type="submit" value="Submit">
-                  </form> 
+        <div class=mn-con>
+        <div class="container top-buffer content bottom-buffer">
+            <div class="row top-buffer">
+                <div class=col>
+                    <h3>Contact</h3>
+                </div>
             </div>
+
+            <div class="row top-buffer">
+                <div class="col">
+                    <form action="mailto:brendanmkelly94@gmail.com" method="post" enctype="text/plain">
+                        <h5>Name</h5>
+                        <input class="contact-bub" type="text" name="firstname" placeholder=" John Smith">
+                        <h5>Email</h5>
+                        <input class="contact-bub" type="text" name="email" placeholder=" example@email.com">
+                        <h5>Message</h5>
+                        <textarea class="contact-bub" type="text" name="message"></textarea>
+                        <input class="sub bottom-buffer" type="submit" value="Submit">
+                    </form> 
+                </div>
+            </div>
+        </div>
+        </div>
             <!-- This container is for the footer -->
-            <div>
-                <p>copyright ©</p>
-            </div>
+            <footer class="footer">
+                    <div class="foot">
+                        <span class="text-muted">copyright ©</span>
+                    </div>
+            </footer>
 </body>
 </html>
 </html>
